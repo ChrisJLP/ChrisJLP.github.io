@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Routes from './routes';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex-center">
-      <main className="container-center">
-        <h1 className="text-3xl font-bold mb-4">Placeholder Header</h1>
-        <p>Content here</p>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow">
+        <Routes />
       </main>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
+export default App;
 
 
 //main a39dc11
