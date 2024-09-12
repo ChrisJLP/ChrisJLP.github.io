@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header: React.FC = () => (
   <header className="bg-gray-800 text-white p-4">
-    <div className="container mx-auto max-w-4xl">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 transition-all duration-300">Chris Pring</h1>
+    <div className="container mx-auto max-w-4xl lg:max-w-6xl xl:max-w-7xl">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-2 transition-all duration-300">Chris Pring</h1>
       <div className="flex space-x-4">
         <a
           href="https://github.com/ChrisJLP"
