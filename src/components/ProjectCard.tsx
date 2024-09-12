@@ -5,11 +5,19 @@ interface ProjectCardProps {
   id: string;
   title: string;
   description: string;
+  imageUrl: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ id, title, description }) => (
+const ProjectCard: React.FC<ProjectCardProps> = ({ id, title, description, imageUrl }) => (
   <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 lg:bg-transparent lg:border-0 lg:p-0">
-    <h3 className="text-lg md:text-xl font-semibold mb-2">{title}</h3>
+    <h3 className="text-lg md:text-xl font-semibold mb-3">{title}</h3>
+    <div className="mb-3">
+      <img 
+        src={imageUrl} 
+        alt={`Screenshot of ${title}`} 
+        className="w-full md:w-3/4 lg:w-1/2 mx-auto rounded-lg shadow-md"
+      />
+    </div>
     <p className="text-gray-300 mb-4">{description}</p>
     <Link 
       to={`/project/${id}`}
