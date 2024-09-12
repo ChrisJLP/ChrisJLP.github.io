@@ -8,7 +8,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setupTests.ts'],
   },
-  base: '/chrisjlp.github.io/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

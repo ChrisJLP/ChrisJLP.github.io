@@ -6,7 +6,7 @@ import './styles/index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Router basename="/chrisjlp.github.io">
+    <Router>
       <App />
     </Router>
   </StrictMode>,
