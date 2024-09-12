@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-900">
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-4">
+      <main className="flex-grow container mx-auto px-4 py-4 max-w-4xl lg:max-w-6xl">
         <AppRoutes />
       </main>
       <Footer />
@@ -16,6 +16,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
-
-//main a39dc11
