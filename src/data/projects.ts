@@ -31,7 +31,7 @@ export const projects: Project[] = [
     ],
     challenges: 'My biggest challenge during this project was expanding it beyond the initial idea while dealing with feature creep. I had to balance adding new functionalities with maintaining simplicity and ease of use.',
     outcome: 'The result is a streamlined, user-friendly purchasing system that showcases efficient inventory management. It demonstrates my ability to create practical, responsive web applications that solve real-world problems.',
-    githubLink: 'https://github.com/ChrisJLP/simplistock',
+    githubLink: 'https://github.com/ChrisJLP/Purchasing-app',
     liveLink: 'https://simplistock.netlify.app',
     imageUrl: '/assets/SimpliStockDashboard.jpeg',
   },
