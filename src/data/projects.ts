@@ -2,6 +2,28 @@ import { Project } from '../types/Project';
 
 export const projects: Project[] = [
   {
+    id: 'simpliquote',
+    title: 'SimpliQuote',
+    description: 'A tool designed to simplify project quotations for contractors.',
+    introduction: 'SimpliQuote makes creating project quotes simple and efficient for contractors, allowing quick client interaction.',
+    screenshots: [
+      {src: '/assets/SimpliQuote - Homepage - Desktop.png', alt: 'Screenshot of SimpliQuote project'},
+      {src: '/assets/SimpliQuote - Edit Project - Desktop.png', alt: 'SimpliQuote Edit Project - Desktop'},
+      {src: '/assets/SimpliQuote - Edit Details - Desktop.png', alt: 'SimpliQuote Edit Details - Desktop'},
+      {src: '/assets/SimpliQuote - PDF .png', alt: 'SimpliQuote PDF'},
+      {src: '/assets/SimpliQuote - Homepage - Mobile.jpeg', alt: 'SimpliQuote Homepage - Mobile'},
+      {src: '/assets/SimpliQuote - Edit Project - Mobile.jpeg', alt: 'SimpliQuote Edit Project - Mobile'},
+      {src: '/assets/SimpliQuote - Edit Details - Mobile.jpeg', alt: 'SimpliQuote Edit Details - Mobile'},
+    ],
+    technologies: ['React', 'Tailwind CSS', 'JavaScript', 'Vite'],
+    features: ['Create quotes quickly', 'Simple UI', 'Customizable project settings', 'Add detailed client info'],
+    challenges: 'Designing a streamlined quote generation flow while keeping flexibility for different project needs.',
+    outcome: 'A functional MVP that reduces time spent on project quotes, enhancing contractor productivity.',
+    githubLink: 'https://github.com/ChrisJLP/SimpliQuote',
+    liveLink: 'https://chrisjlp.github.io/SimpliQuote/',
+    imageUrl: 'public/assets/SimpliQuote - Homepage - Desktop.png'
+  },
+  {
     id: 'simplistock',
     title: 'SimpliStock',
     description: 'A purchasing web app designed to showcase how a purchasing system could be made as easy to use as possible. Features real-time stock updates, order processing, and supplier management.',
