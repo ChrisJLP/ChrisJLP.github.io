@@ -8,13 +8,13 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 transition-all duration-300 hover:shadow-lg md:max-w-xl md:mx-auto lg:max-w-none lg:bg-transparent lg:border-none lg:p-0 lg:hover:shadow-none">
-      <h3 className="text-lg md:text-xl font-semibold mb-4 text-center">{project.title}</h3>
+    <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 shadow-lg transition-transform transform duration-300 hover:scale-105 w-full">
+      <h3 className="text-lg md:text-xl font-semibold mb-4 text-center text-white">{project.title}</h3>
       <div className="mb-6 flex justify-center">
         <img 
           src={project.imageUrl} 
           alt={`Screenshot of ${project.title}`} 
-          className="w-full rounded-lg shadow-md object-contain max-h-[60vh] lg:max-h-[70vh]"
+          className="w-full rounded-lg shadow-md object-cover max-h-[80vh]"
         />
       </div>
       <p className="text-gray-300 mb-6 text-center">{project.description}</p>
