@@ -8,7 +8,7 @@ const AboutMe: React.FC = () => (
         I'm a developer based in Maidstone, just outside London, with a passion for creating efficient and user-friendly web applications.
       </p>
       <p>
-        My background in purchasing allowed me to work on my problem-solving skills, which I now apply to my development projects. I'm proficient in React, JavaScript, HTML5, and CSS3, with hands-on experience in building responsive web apps like SimpliStock.
+        My background in purchasing allowed me to work on my problem-solving skills, which I now apply to my development projects. I'm proficient in React, JavaScript, HTML5, and CSS3, with hands-on experience in building responsive web apps like RuneTiles.
       </p>
     </div>
   </section>

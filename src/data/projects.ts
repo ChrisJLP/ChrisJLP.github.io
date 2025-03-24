@@ -2,6 +2,28 @@ import { Project } from '../types/Project';
 
 export const projects: Project[] = [
   {
+    id: 'runetiles',
+    title: 'RuneTiles',
+    description: 'A goal tracker for Old School RuneScape players. Over 150 users on launch day. Create customizable boards to plan accounts, design bingo boards, track progress, build templates, and share them with others.',
+    introduction: 'RuneTiles is a specialized tool designed to help Old School RuneScape players track their in-game goals. It features customizable boards, shareable templates, and progress tracking for various game activities.',
+    screenshots: [
+      {src: '/assets/RuneTiles Board.png', alt: 'RuneTiles Board Example'},
+    ],
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase'],
+    features: [
+      'Customizable goal tracking boards',
+      'Share and use board templates',
+      'Track Ironman, skilling, and PvM progress',
+      'OSRS username integration',
+      'Responsive design for desktop and mobile'
+    ],
+    challenges: 'Creating an intuitive interface that allows players to easily track their various in-game goals while maintaining flexibility for different playstyles.',
+    outcome: 'A useful tool for the OSRS community that helps players visualize and accomplish their in-game goals more effectively.',
+    githubLink: 'https://github.com/ChrisJLP/runetiles',
+    liveLink: 'https://runetiles.com',
+    imageUrl: '/assets/RuneTiles Board.png'
+  },
+  {
     id: 'simpliquote',
     title: 'SimpliQuote',
     description: 'A tool designed to simplify project quotations for contractors.',
@@ -21,7 +43,7 @@ export const projects: Project[] = [
     outcome: 'A functional MVP that reduces time spent on project quotes, enhancing contractor productivity.',
     githubLink: 'https://github.com/ChrisJLP/SimpliQuote',
     liveLink: 'https://chrisjlp.github.io/SimpliQuote/',
-    imageUrl: 'public/assets/SimpliQuote - Homepage - Desktop.png'
+    imageUrl: '/assets/SimpliQuote - Homepage - Desktop.png'
   },
   {
     id: 'simplistock',

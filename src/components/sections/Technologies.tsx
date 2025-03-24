@@ -2,13 +2,16 @@ import React from 'react';
 
 const technologies = [
   'React',
-  'TypeScript',
   'JavaScript',
+  'TypeScript',
+  'NodeJS',
+  'Express',
+  'PostgreSQL',
   'Tailwind CSS',
-  'CSS3',
-  'HTML5',
+  'CSS',
+  'HTML',
   'Git',
-  'GitHub',
+  
   'Vite',
   'Vitest'
 ];
