@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: 'runetiles',
     title: 'RuneTiles',
-    description: 'A goal tracker for Old School RuneScape players. Over 150 users on launch day. Create customizable boards to plan accounts, design bingo boards, track progress, build templates, and share them with others.',
+    description: 'A goal tracker for Old School RuneScape players, with over 150 users on launch day. Create customizable boards to plan accounts, design bingo boards, track progress, build templates, and share them with others.',
     introduction: 'RuneTiles is a specialized tool designed to help Old School RuneScape players track their in-game goals. It features customizable boards, shareable templates, and progress tracking for various game activities.',
     screenshots: [
       {src: '/assets/RuneTiles Board.png', alt: 'RuneTiles Board Example'},
